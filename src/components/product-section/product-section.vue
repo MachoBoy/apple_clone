@@ -1,14 +1,28 @@
 <script setup></script>
 <template>
-  <div class="relative w-full pt-[44px] h-[692px]">
+  <div class="relative w-full h-[692px]">
     <!-- product description -->
-    <div class="w-full text-center pt-[55px]">
+    <div class="w-full text-center pt-[55px] relative z-10">
       <h2 class="headline text-white text-[56px]">iPhone 14 Pro</h2>
-      <h3 class="subhead text-white">Pro. Beyond.</h3>
-      <p class="desc">Available starting 9.16</p>
-      <div class="links">
-        <a>Learn More ></a>
-        <a>Pre-order ></a>
+      <h3
+        class="subhead text-white text-[28px] mt-[6px] leading-[1.10] font-normal"
+      >
+        Pro. Beyond.
+      </h3>
+      <p class="desc text-[#86868b] text-[21px] mt-[12px] font-normal">
+        Available starting 9.16
+      </p>
+      <div class="links mt-[0.5em] relative inline-block text-[21px]">
+        <a
+          class="text-[#2997ff] after:content-[url('/src/assets/icons/chevron_r-icon.svg')] after:pl-[0.3em] after:-pb-[2em] after:text-xs hover:underline"
+          href="#"
+          >Learn more</a
+        >
+        <a
+          class="text-[#2997ff] ml-[35px] after:content-[url('/src/assets/icons/chevron_r-icon.svg')] after:pl-[0.3em] after:-pb-[2em] after:text-xs hover:underline"
+          href="#"
+          >Pre-order</a
+        >
       </div>
     </div>
     <!-- product image -->
