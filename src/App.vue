@@ -6,6 +6,8 @@ import GlobalHeader from "./components/global-header/global-header.vue";
 <template>
   <div class="w-full overflow-hidden">
     <global-header />
-    <router-view></router-view>
+    <div class="pt-[44px]">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
